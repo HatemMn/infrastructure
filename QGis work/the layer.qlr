@@ -1,0 +1,1222 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" name="" expanded="1">
+    <customproperties/>
+    <layer-tree-layer legend_exp="" source="./deserto.gpkg|layername=deserto" checked="Qt::Checked" id="lines_d24b1d92_bb39_4033_9d67_f14349a9fca2" legend_split_behavior="0" patch_size="-1,-1" name="OsmQuery" providerKey="ogr" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyLocal="1" wkbType="LineString" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingTol="1" minScale="100000000" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" readOnly="0" type="vector" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" simplifyDrawingHints="1" labelsEnabled="0" geometry="Line">
+      <extent>
+        <xmin>32.29161489999999901</xmin>
+        <ymin>27.72448049999999853</ymin>
+        <xmax>34.90379339999999786</xmax>
+        <ymax>31.32253250000000122</ymax>
+      </extent>
+      <id>lines_d24b1d92_bb39_4033_9d67_f14349a9fca2</id>
+      <datasource>./deserto.gpkg|layername=deserto</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>OsmQuery</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract>gggggggggggggggg</abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal endField="" durationUnit="min" startExpression="" endExpression="" accumulate="0" durationField="" enabled="0" startField="" fixedDuration="0" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" enableorderby="0" forceraster="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" type="line" name="0" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option name="properties"/>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
+              <Option type="Map">
+                <Option value="0" type="QString" name="align_dash_pattern"/>
+                <Option value="square" type="QString" name="capstyle"/>
+                <Option value="5;2" type="QString" name="customdash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
+                <Option value="MM" type="QString" name="customdash_unit"/>
+                <Option value="0" type="QString" name="dash_pattern_offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
+                <Option value="0" type="QString" name="draw_inside_polygon"/>
+                <Option value="bevel" type="QString" name="joinstyle"/>
+                <Option value="190,178,151,255" type="QString" name="line_color"/>
+                <Option value="solid" type="QString" name="line_style"/>
+                <Option value="0.26" type="QString" name="line_width"/>
+                <Option value="MM" type="QString" name="line_width_unit"/>
+                <Option value="0" type="QString" name="offset"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+                <Option value="MM" type="QString" name="offset_unit"/>
+                <Option value="0" type="QString" name="ring_filter"/>
+                <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
+                <Option value="0" type="QString" name="use_custom_dash"/>
+                <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
+              </Option>
+              <prop k="align_dash_pattern" v="0"/>
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="dash_pattern_offset" v="0"/>
+              <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="dash_pattern_offset_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="190,178,151,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="ring_filter" v="0"/>
+              <prop k="tweak_dash_pattern_on_corners" v="0"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="variableNames" value="quickosm_query"/>
+        <property key="variableValues" value="&lt;osm-script output=&quot;xml&quot; timeout=&quot;25&quot;>&#xa;    &lt;id-query ref=&quot;3605632534&quot; type=&quot;area&quot; into=&quot;area_0&quot;/>&#xa;    &lt;union>&#xa;        &lt;query type=&quot;node&quot;>&#xa;            &lt;has-kv k=&quot;highway&quot;/>&#xa;            &lt;area-query from=&quot;area_0&quot;/>&#xa;        &lt;/query>&#xa;        &lt;query type=&quot;way&quot;>&#xa;            &lt;has-kv k=&quot;highway&quot;/>&#xa;            &lt;area-query from=&quot;area_0&quot;/>&#xa;        &lt;/query>&#xa;        &lt;query type=&quot;relation&quot;>&#xa;            &lt;has-kv k=&quot;highway&quot;/>&#xa;            &lt;area-query from=&quot;area_0&quot;/>&#xa;        &lt;/query>&#xa;    &lt;/union>&#xa;    &lt;union>&#xa;        &lt;item/>&#xa;        &lt;recurse type=&quot;down&quot;/>&#xa;    &lt;/union>&#xa;    &lt;print mode=&quot;body&quot;/>&#xa;&lt;/osm-script>"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="fid" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="full_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_type" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="highway" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oneway" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name:ar" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name:en" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="surface" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_name" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_name:en" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="camel" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foot" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sac_scale" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="old_ref" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ref" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="access" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ref:ar" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="trail_visibility" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bridge" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="layer" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="junction" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name:de" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name:es" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name:fr" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name:pt" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name:ru" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lanes" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxspeed" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tracktype" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="service" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bicycle" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="horse" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motor_vehicle" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lit" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="width" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sidewalk" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tunnel" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="median" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="complete" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cycleway" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="brand" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="history" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorcar" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorcycle" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ski" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="snowmobile" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wheelchair" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="mtb:scale" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="footway" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_ref" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="construction" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="noname" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="covered" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="embankment" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="incline" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sport" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cutting" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="natural" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="path" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="route" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="description" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="area" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wikidata" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wikipedia" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="indoor" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aeroway" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorroad" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="source:tracktype" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bridge:name" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="proposed" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="image" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="mapillary" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="smoothness" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="surface:grade" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="landcover" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="barrier" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bridge:movable" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ford" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lane_markings" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="handrail:left" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="handrail:right" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="handrail" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ramp" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ramp:luggage" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ramp:stroller" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ramp:wheelchair" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="toll" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name:he" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="fid" index="0" name=""/>
+        <alias field="full_id" index="1" name=""/>
+        <alias field="osm_id" index="2" name=""/>
+        <alias field="osm_type" index="3" name=""/>
+        <alias field="highway" index="4" name=""/>
+        <alias field="oneway" index="5" name=""/>
+        <alias field="name" index="6" name=""/>
+        <alias field="name:ar" index="7" name=""/>
+        <alias field="name:en" index="8" name=""/>
+        <alias field="surface" index="9" name=""/>
+        <alias field="alt_name" index="10" name=""/>
+        <alias field="alt_name:en" index="11" name=""/>
+        <alias field="camel" index="12" name=""/>
+        <alias field="foot" index="13" name=""/>
+        <alias field="sac_scale" index="14" name=""/>
+        <alias field="old_ref" index="15" name=""/>
+        <alias field="ref" index="16" name=""/>
+        <alias field="access" index="17" name=""/>
+        <alias field="ref:ar" index="18" name=""/>
+        <alias field="trail_visibility" index="19" name=""/>
+        <alias field="bridge" index="20" name=""/>
+        <alias field="layer" index="21" name=""/>
+        <alias field="junction" index="22" name=""/>
+        <alias field="name:de" index="23" name=""/>
+        <alias field="name:es" index="24" name=""/>
+        <alias field="name:fr" index="25" name=""/>
+        <alias field="name:pt" index="26" name=""/>
+        <alias field="name:ru" index="27" name=""/>
+        <alias field="lanes" index="28" name=""/>
+        <alias field="maxspeed" index="29" name=""/>
+        <alias field="tracktype" index="30" name=""/>
+        <alias field="service" index="31" name=""/>
+        <alias field="bicycle" index="32" name=""/>
+        <alias field="horse" index="33" name=""/>
+        <alias field="motor_vehicle" index="34" name=""/>
+        <alias field="lit" index="35" name=""/>
+        <alias field="width" index="36" name=""/>
+        <alias field="sidewalk" index="37" name=""/>
+        <alias field="tunnel" index="38" name=""/>
+        <alias field="median" index="39" name=""/>
+        <alias field="complete" index="40" name=""/>
+        <alias field="cycleway" index="41" name=""/>
+        <alias field="brand" index="42" name=""/>
+        <alias field="history" index="43" name=""/>
+        <alias field="motorcar" index="44" name=""/>
+        <alias field="motorcycle" index="45" name=""/>
+        <alias field="ski" index="46" name=""/>
+        <alias field="snowmobile" index="47" name=""/>
+        <alias field="wheelchair" index="48" name=""/>
+        <alias field="mtb:scale" index="49" name=""/>
+        <alias field="footway" index="50" name=""/>
+        <alias field="alt_ref" index="51" name=""/>
+        <alias field="construction" index="52" name=""/>
+        <alias field="noname" index="53" name=""/>
+        <alias field="covered" index="54" name=""/>
+        <alias field="embankment" index="55" name=""/>
+        <alias field="incline" index="56" name=""/>
+        <alias field="sport" index="57" name=""/>
+        <alias field="cutting" index="58" name=""/>
+        <alias field="natural" index="59" name=""/>
+        <alias field="path" index="60" name=""/>
+        <alias field="route" index="61" name=""/>
+        <alias field="description" index="62" name=""/>
+        <alias field="area" index="63" name=""/>
+        <alias field="wikidata" index="64" name=""/>
+        <alias field="wikipedia" index="65" name=""/>
+        <alias field="indoor" index="66" name=""/>
+        <alias field="aeroway" index="67" name=""/>
+        <alias field="motorroad" index="68" name=""/>
+        <alias field="source:tracktype" index="69" name=""/>
+        <alias field="bridge:name" index="70" name=""/>
+        <alias field="proposed" index="71" name=""/>
+        <alias field="image" index="72" name=""/>
+        <alias field="mapillary" index="73" name=""/>
+        <alias field="smoothness" index="74" name=""/>
+        <alias field="surface:grade" index="75" name=""/>
+        <alias field="landcover" index="76" name=""/>
+        <alias field="barrier" index="77" name=""/>
+        <alias field="bridge:movable" index="78" name=""/>
+        <alias field="ford" index="79" name=""/>
+        <alias field="lane_markings" index="80" name=""/>
+        <alias field="handrail:left" index="81" name=""/>
+        <alias field="handrail:right" index="82" name=""/>
+        <alias field="handrail" index="83" name=""/>
+        <alias field="ramp" index="84" name=""/>
+        <alias field="ramp:luggage" index="85" name=""/>
+        <alias field="ramp:stroller" index="86" name=""/>
+        <alias field="ramp:wheelchair" index="87" name=""/>
+        <alias field="toll" index="88" name=""/>
+        <alias field="name:he" index="89" name=""/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="fid"/>
+        <default expression="" applyOnUpdate="0" field="full_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_type"/>
+        <default expression="" applyOnUpdate="0" field="highway"/>
+        <default expression="" applyOnUpdate="0" field="oneway"/>
+        <default expression="" applyOnUpdate="0" field="name"/>
+        <default expression="" applyOnUpdate="0" field="name:ar"/>
+        <default expression="" applyOnUpdate="0" field="name:en"/>
+        <default expression="" applyOnUpdate="0" field="surface"/>
+        <default expression="" applyOnUpdate="0" field="alt_name"/>
+        <default expression="" applyOnUpdate="0" field="alt_name:en"/>
+        <default expression="" applyOnUpdate="0" field="camel"/>
+        <default expression="" applyOnUpdate="0" field="foot"/>
+        <default expression="" applyOnUpdate="0" field="sac_scale"/>
+        <default expression="" applyOnUpdate="0" field="old_ref"/>
+        <default expression="" applyOnUpdate="0" field="ref"/>
+        <default expression="" applyOnUpdate="0" field="access"/>
+        <default expression="" applyOnUpdate="0" field="ref:ar"/>
+        <default expression="" applyOnUpdate="0" field="trail_visibility"/>
+        <default expression="" applyOnUpdate="0" field="bridge"/>
+        <default expression="" applyOnUpdate="0" field="layer"/>
+        <default expression="" applyOnUpdate="0" field="junction"/>
+        <default expression="" applyOnUpdate="0" field="name:de"/>
+        <default expression="" applyOnUpdate="0" field="name:es"/>
+        <default expression="" applyOnUpdate="0" field="name:fr"/>
+        <default expression="" applyOnUpdate="0" field="name:pt"/>
+        <default expression="" applyOnUpdate="0" field="name:ru"/>
+        <default expression="" applyOnUpdate="0" field="lanes"/>
+        <default expression="" applyOnUpdate="0" field="maxspeed"/>
+        <default expression="" applyOnUpdate="0" field="tracktype"/>
+        <default expression="" applyOnUpdate="0" field="service"/>
+        <default expression="" applyOnUpdate="0" field="bicycle"/>
+        <default expression="" applyOnUpdate="0" field="horse"/>
+        <default expression="" applyOnUpdate="0" field="motor_vehicle"/>
+        <default expression="" applyOnUpdate="0" field="lit"/>
+        <default expression="" applyOnUpdate="0" field="width"/>
+        <default expression="" applyOnUpdate="0" field="sidewalk"/>
+        <default expression="" applyOnUpdate="0" field="tunnel"/>
+        <default expression="" applyOnUpdate="0" field="median"/>
+        <default expression="" applyOnUpdate="0" field="complete"/>
+        <default expression="" applyOnUpdate="0" field="cycleway"/>
+        <default expression="" applyOnUpdate="0" field="brand"/>
+        <default expression="" applyOnUpdate="0" field="history"/>
+        <default expression="" applyOnUpdate="0" field="motorcar"/>
+        <default expression="" applyOnUpdate="0" field="motorcycle"/>
+        <default expression="" applyOnUpdate="0" field="ski"/>
+        <default expression="" applyOnUpdate="0" field="snowmobile"/>
+        <default expression="" applyOnUpdate="0" field="wheelchair"/>
+        <default expression="" applyOnUpdate="0" field="mtb:scale"/>
+        <default expression="" applyOnUpdate="0" field="footway"/>
+        <default expression="" applyOnUpdate="0" field="alt_ref"/>
+        <default expression="" applyOnUpdate="0" field="construction"/>
+        <default expression="" applyOnUpdate="0" field="noname"/>
+        <default expression="" applyOnUpdate="0" field="covered"/>
+        <default expression="" applyOnUpdate="0" field="embankment"/>
+        <default expression="" applyOnUpdate="0" field="incline"/>
+        <default expression="" applyOnUpdate="0" field="sport"/>
+        <default expression="" applyOnUpdate="0" field="cutting"/>
+        <default expression="" applyOnUpdate="0" field="natural"/>
+        <default expression="" applyOnUpdate="0" field="path"/>
+        <default expression="" applyOnUpdate="0" field="route"/>
+        <default expression="" applyOnUpdate="0" field="description"/>
+        <default expression="" applyOnUpdate="0" field="area"/>
+        <default expression="" applyOnUpdate="0" field="wikidata"/>
+        <default expression="" applyOnUpdate="0" field="wikipedia"/>
+        <default expression="" applyOnUpdate="0" field="indoor"/>
+        <default expression="" applyOnUpdate="0" field="aeroway"/>
+        <default expression="" applyOnUpdate="0" field="motorroad"/>
+        <default expression="" applyOnUpdate="0" field="source:tracktype"/>
+        <default expression="" applyOnUpdate="0" field="bridge:name"/>
+        <default expression="" applyOnUpdate="0" field="proposed"/>
+        <default expression="" applyOnUpdate="0" field="image"/>
+        <default expression="" applyOnUpdate="0" field="mapillary"/>
+        <default expression="" applyOnUpdate="0" field="smoothness"/>
+        <default expression="" applyOnUpdate="0" field="surface:grade"/>
+        <default expression="" applyOnUpdate="0" field="landcover"/>
+        <default expression="" applyOnUpdate="0" field="barrier"/>
+        <default expression="" applyOnUpdate="0" field="bridge:movable"/>
+        <default expression="" applyOnUpdate="0" field="ford"/>
+        <default expression="" applyOnUpdate="0" field="lane_markings"/>
+        <default expression="" applyOnUpdate="0" field="handrail:left"/>
+        <default expression="" applyOnUpdate="0" field="handrail:right"/>
+        <default expression="" applyOnUpdate="0" field="handrail"/>
+        <default expression="" applyOnUpdate="0" field="ramp"/>
+        <default expression="" applyOnUpdate="0" field="ramp:luggage"/>
+        <default expression="" applyOnUpdate="0" field="ramp:stroller"/>
+        <default expression="" applyOnUpdate="0" field="ramp:wheelchair"/>
+        <default expression="" applyOnUpdate="0" field="toll"/>
+        <default expression="" applyOnUpdate="0" field="name:he"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" exp_strength="0" field="fid" notnull_strength="1" constraints="3"/>
+        <constraint unique_strength="0" exp_strength="0" field="full_id" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="osm_id" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="osm_type" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="highway" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="oneway" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="name" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="name:ar" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="name:en" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="surface" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="alt_name" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="alt_name:en" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="camel" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="foot" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="sac_scale" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="old_ref" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ref" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="access" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ref:ar" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="trail_visibility" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="bridge" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="layer" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="junction" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="name:de" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="name:es" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="name:fr" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="name:pt" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="name:ru" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="lanes" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="maxspeed" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="tracktype" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="service" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="bicycle" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="horse" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="motor_vehicle" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="lit" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="width" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="sidewalk" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="tunnel" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="median" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="complete" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="cycleway" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="brand" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="history" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="motorcar" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="motorcycle" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ski" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="snowmobile" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="wheelchair" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="mtb:scale" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="footway" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="alt_ref" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="construction" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="noname" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="covered" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="embankment" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="incline" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="sport" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="cutting" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="natural" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="path" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="route" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="description" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="area" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="wikidata" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="wikipedia" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="indoor" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="aeroway" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="motorroad" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="source:tracktype" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="bridge:name" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="proposed" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="image" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="mapillary" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="smoothness" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="surface:grade" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="landcover" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="barrier" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="bridge:movable" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ford" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="lane_markings" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="handrail:left" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="handrail:right" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="handrail" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ramp" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ramp:luggage" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ramp:stroller" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ramp:wheelchair" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="toll" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="name:he" notnull_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="fid" exp=""/>
+        <constraint desc="" field="full_id" exp=""/>
+        <constraint desc="" field="osm_id" exp=""/>
+        <constraint desc="" field="osm_type" exp=""/>
+        <constraint desc="" field="highway" exp=""/>
+        <constraint desc="" field="oneway" exp=""/>
+        <constraint desc="" field="name" exp=""/>
+        <constraint desc="" field="name:ar" exp=""/>
+        <constraint desc="" field="name:en" exp=""/>
+        <constraint desc="" field="surface" exp=""/>
+        <constraint desc="" field="alt_name" exp=""/>
+        <constraint desc="" field="alt_name:en" exp=""/>
+        <constraint desc="" field="camel" exp=""/>
+        <constraint desc="" field="foot" exp=""/>
+        <constraint desc="" field="sac_scale" exp=""/>
+        <constraint desc="" field="old_ref" exp=""/>
+        <constraint desc="" field="ref" exp=""/>
+        <constraint desc="" field="access" exp=""/>
+        <constraint desc="" field="ref:ar" exp=""/>
+        <constraint desc="" field="trail_visibility" exp=""/>
+        <constraint desc="" field="bridge" exp=""/>
+        <constraint desc="" field="layer" exp=""/>
+        <constraint desc="" field="junction" exp=""/>
+        <constraint desc="" field="name:de" exp=""/>
+        <constraint desc="" field="name:es" exp=""/>
+        <constraint desc="" field="name:fr" exp=""/>
+        <constraint desc="" field="name:pt" exp=""/>
+        <constraint desc="" field="name:ru" exp=""/>
+        <constraint desc="" field="lanes" exp=""/>
+        <constraint desc="" field="maxspeed" exp=""/>
+        <constraint desc="" field="tracktype" exp=""/>
+        <constraint desc="" field="service" exp=""/>
+        <constraint desc="" field="bicycle" exp=""/>
+        <constraint desc="" field="horse" exp=""/>
+        <constraint desc="" field="motor_vehicle" exp=""/>
+        <constraint desc="" field="lit" exp=""/>
+        <constraint desc="" field="width" exp=""/>
+        <constraint desc="" field="sidewalk" exp=""/>
+        <constraint desc="" field="tunnel" exp=""/>
+        <constraint desc="" field="median" exp=""/>
+        <constraint desc="" field="complete" exp=""/>
+        <constraint desc="" field="cycleway" exp=""/>
+        <constraint desc="" field="brand" exp=""/>
+        <constraint desc="" field="history" exp=""/>
+        <constraint desc="" field="motorcar" exp=""/>
+        <constraint desc="" field="motorcycle" exp=""/>
+        <constraint desc="" field="ski" exp=""/>
+        <constraint desc="" field="snowmobile" exp=""/>
+        <constraint desc="" field="wheelchair" exp=""/>
+        <constraint desc="" field="mtb:scale" exp=""/>
+        <constraint desc="" field="footway" exp=""/>
+        <constraint desc="" field="alt_ref" exp=""/>
+        <constraint desc="" field="construction" exp=""/>
+        <constraint desc="" field="noname" exp=""/>
+        <constraint desc="" field="covered" exp=""/>
+        <constraint desc="" field="embankment" exp=""/>
+        <constraint desc="" field="incline" exp=""/>
+        <constraint desc="" field="sport" exp=""/>
+        <constraint desc="" field="cutting" exp=""/>
+        <constraint desc="" field="natural" exp=""/>
+        <constraint desc="" field="path" exp=""/>
+        <constraint desc="" field="route" exp=""/>
+        <constraint desc="" field="description" exp=""/>
+        <constraint desc="" field="area" exp=""/>
+        <constraint desc="" field="wikidata" exp=""/>
+        <constraint desc="" field="wikipedia" exp=""/>
+        <constraint desc="" field="indoor" exp=""/>
+        <constraint desc="" field="aeroway" exp=""/>
+        <constraint desc="" field="motorroad" exp=""/>
+        <constraint desc="" field="source:tracktype" exp=""/>
+        <constraint desc="" field="bridge:name" exp=""/>
+        <constraint desc="" field="proposed" exp=""/>
+        <constraint desc="" field="image" exp=""/>
+        <constraint desc="" field="mapillary" exp=""/>
+        <constraint desc="" field="smoothness" exp=""/>
+        <constraint desc="" field="surface:grade" exp=""/>
+        <constraint desc="" field="landcover" exp=""/>
+        <constraint desc="" field="barrier" exp=""/>
+        <constraint desc="" field="bridge:movable" exp=""/>
+        <constraint desc="" field="ford" exp=""/>
+        <constraint desc="" field="lane_markings" exp=""/>
+        <constraint desc="" field="handrail:left" exp=""/>
+        <constraint desc="" field="handrail:right" exp=""/>
+        <constraint desc="" field="handrail" exp=""/>
+        <constraint desc="" field="ramp" exp=""/>
+        <constraint desc="" field="ramp:luggage" exp=""/>
+        <constraint desc="" field="ramp:stroller" exp=""/>
+        <constraint desc="" field="ramp:wheelchair" exp=""/>
+        <constraint desc="" field="toll" exp=""/>
+        <constraint desc="" field="name:he" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <actionsetting capture="0" notificationMessage="" id="{49e13681-a84b-4451-be9c-5c6d5c53cde1}" action="http://www.openstreetmap.org/browse/[% &quot;osm_type&quot; %]/[% &quot;osm_id&quot; %]" shortTitle="Navigateur OSM" type="5" name="Navigateur OSM" isEnabledOnlyWhenEditable="0" icon="">
+          <actionScope id="Field"/>
+          <actionScope id="Feature"/>
+          <actionScope id="Canvas"/>
+        </actionsetting>
+        <actionsetting capture="0" notificationMessage="" id="{a1f8602f-0b8f-4c69-8189-0251edfc2021}" action="from QuickOSM.core.actions import Actions;Actions.run(&quot;mapillary&quot;,&quot;[% &quot;mapillary&quot; %]&quot;)" shortTitle="Mapillary" type="1" name="Mapillary" isEnabledOnlyWhenEditable="0" icon="C:\Users\Hatem 9raya\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\QuickOSM\resources\icons\mapillary_logo.svg">
+          <actionScope id="Field"/>
+          <actionScope id="Feature"/>
+          <actionScope id="Canvas"/>
+        </actionsetting>
+        <actionsetting capture="0" notificationMessage="" id="{b70e4b3e-5ad3-43f0-ba5e-24fb3f0aad66}" action="from QuickOSM.core.actions import Actions;Actions.run(&quot;josm&quot;,&quot;[% &quot;full_id&quot; %]&quot;)" shortTitle="JOSM" type="1" name="JOSM" isEnabledOnlyWhenEditable="0" icon="C:\Users\Hatem 9raya\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\QuickOSM\resources\icons\josm_icon.svg">
+          <actionScope id="Field"/>
+          <actionScope id="Feature"/>
+          <actionScope id="Canvas"/>
+        </actionsetting>
+        <actionsetting capture="0" notificationMessage="" id="{468883f5-9ef6-48a1-ae5d-a407db7e302a}" action="http://www.openstreetmap.org/edit?[% &quot;osm_type&quot; %]=[% &quot;osm_id&quot; %]" shortTitle="Éditeur de l'utilisateur par défaut" type="5" name="Éditeur de l'utilisateur par défaut" isEnabledOnlyWhenEditable="0" icon="">
+          <actionScope id="Field"/>
+          <actionScope id="Feature"/>
+          <actionScope id="Canvas"/>
+        </actionsetting>
+        <actionsetting capture="0" notificationMessage="" id="{71070e80-c2e0-4eb1-a9ef-a37b10d03eb4}" action="from QuickOSM.core.actions import Actions;Actions.run(&quot;wikipedia&quot;,&quot;[% &quot;wikipedia&quot; %]&quot;)" shortTitle="wikipedia" type="1" name="wikipedia" isEnabledOnlyWhenEditable="0" icon="C:\Users\Hatem 9raya\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\QuickOSM\resources\icons\wikipedia.png">
+          <actionScope id="Field"/>
+          <actionScope id="Feature"/>
+          <actionScope id="Canvas"/>
+        </actionsetting>
+        <actionsetting capture="0" notificationMessage="" id="{8acd992f-4804-4bfe-83a7-8bb59c35d62e}" action="from QuickOSM.core.actions import Actions;Actions.run(&quot;wikidata&quot;,&quot;[% &quot;wikidata&quot; %]&quot;)" shortTitle="wikidata" type="1" name="wikidata" isEnabledOnlyWhenEditable="0" icon="C:\Users\Hatem 9raya\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\QuickOSM\resources\icons\wikidata.png">
+          <actionScope id="Field"/>
+          <actionScope id="Feature"/>
+          <actionScope id="Canvas"/>
+        </actionsetting>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
