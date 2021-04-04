@@ -42,19 +42,19 @@ class SlidingWindowSplitter:
         n_y = (bands.shape[1] - self.patch_size) // self.stride + 1
         step_x = self.stride
         step_y = self.stride
-        # pre-allocated for efficiency
+        # pre-allocated for efficiency - Hatem has added the dTypeField
         bands_patches = np.empty((
                                 n_x * n_y,
                                 self.patch_size,
                                 self.patch_size,
                                 bands.shape[-1]
-                                ))
+                                ), dtype=int16)
         mask_patches = np.empty((
                                 n_x * n_y,
                                 self.patch_size,
                                 self.patch_size,
                                 mask.shape[-1]
-                                ))
+                                ), dtype=int16)
         patch_ids = []
         num_valid_patches = 0
         for i in range(n_x):
